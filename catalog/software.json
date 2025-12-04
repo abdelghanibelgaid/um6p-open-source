@@ -1,0 +1,50 @@
+[
+  {
+    "name": "sympde",
+    "description": "SymPDE is a symbolic calculus library for partial differential equations (PDEs) and variational forms.",
+    "url": "https://github.com/pyccel/sympde",
+    "platform": "github",
+    "type": "library",
+    "domain": "Computational Science, Modeling & Simulation",
+    "tags": ["pde", "finite-elements", "symbolic-math", "hpc"],
+    "owner": "Pyccel",
+    "unit": "Vanguard Center",
+    "language": "Python",
+    "license": "MIT",
+    "doi": null,
+    "status": "active",
+    "created_at": "2018-09-02"
+  },
+  {
+    "name": "pyccel",
+    "description": "Pyccel is an extension language that transpiles numerical Python code to fast low-level (Fortran/C) code for scientific high-performance computing.",
+    "url": "https://github.com/pyccel/pyccel",
+    "platform": "github",
+    "type": "library",
+    "domain": "Quantum Computing & High-Performance Computing",
+    "tags": ["transpiler", "hpc", "code-generation", "fortran", "c"],
+    "owner": "Pyccel",
+    "unit": "Vanguard Center",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.21105/joss.04991",
+    "status": "active",
+    "created_at": "2017-08-13"
+  },
+  {
+    "name": "psydac",
+    "description": "PSYDAC is a library for isogeometric analysis (IGA), providing high-performance parallel solvers for PDEs and integration with Pyccel.",
+    "url": "https://github.com/pyccel/psydac",
+    "platform": "github",
+    "type": "library",
+    "domain": "Computational Science, Modeling & Simulation",
+    "tags": ["isogeometric-analysis", "finite-elements", "pde", "hpc", "mpi"],
+    "owner": "pyccel",
+    "unit": "Vanguard Center",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.23967/eccomas.2022.227",
+    "status": "active",
+    "created_at": "2018-02-11"
+  }
+]
