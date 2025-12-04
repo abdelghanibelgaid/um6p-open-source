@@ -1,0 +1,42 @@
+# Domains
+
+When submitting a new contribution, please use **one** of the following topics as the value of the `domain` field. When filling the catalog, copy the value from the **Domain value** column exactly. 
+If you believe a new topic is needed, do not invent a new label. Instead, please open an issue and propose an addition by suggesting edits to this file.
+
+
+## Standard Domain List
+
+| Domain value                                             | Description                                                                                          | Example projects                                                                                                       |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Agriculture, Agronomy & Plant Sciences                   | Crop production, agronomy, genetics, plant physiology, and breeding.                                  | Yield prediction models, variety trials analysis, crop management decision tools.                                      |
+| Digital Agriculture, Precision Farming & AgTech          | Site-specific management, variable-rate technology, farm automation, and decision support tools.      | NPK recommendation engines, precision seeding/irrigation tools, farm dashboards, and mobile advisory apps.              |
+| Soil, Water & Environmental Systems                      | Soil health, water resources, hydrology, pollution, land degradation, and restoration.                | Soil-property mapping, irrigation scheduling tools, erosion risk models, groundwater monitoring pipelines.             |
+| Climate, Weather & Atmospheric Science                   | Historical and forecast climate, weather services, extremes, climate-risk, and adaptation analytics.  | ERA5-based climate services, drought and heatwave indices, climate impact dashboards for Morocco and Africa.           |
+| Biodiversity, Ecology & Natural Systems                  | Ecosystems, biodiversity monitoring, rangelands, forests, and conservation planning.                  | Habitat suitability models, biodiversity observatories, ecosystem services mapping tools.                              |
+| Mining, Geology & Georesources                           | Exploration, ore modeling, structural geology, geometallurgy, and resource management.                | Ore grade prediction, remote sensing for exploration (e.g., Bou-Azzer), mine-environment monitoring platforms.          |
+| Materials, Chemistry & Process Engineering               | Chemical processes, materials science, catalysis, mineral processing, and industrial chemistry.       | Process simulators, reactor optimization tools, phosphate processing models, lab automation scripts.                   |
+| Energy, Power & Low-Carbon Systems                       | Renewable energy, power systems, storage, hydrogen, decarbonization, and life-cycle assessment.       | Solar and wind potential mapping, microgrid simulators, carbon accounting tools, and LCA pipelines.                        |
+| Cities, Infrastructure & Built Environment               | Urban systems, mobility, infrastructure, smart cities, and territorial planning.                      | Green city analytics, mobility pattern dashboards, urban heat island mapping, infrastructure planning tools.           |
+| Artificial Intelligence, Machine Learning & Data Science | General AI/ML methods, analytics platforms, model evaluation, MLOps, and decision intelligence.       | ML libraries, model evaluation toolkits, experiment tracking platforms, decision-support agents.                       |
+| Remote Sensing, GIS & Geospatial Analytics               | Earth observation, GIS, spatial statistics, STAC/GEE tooling, and geospatial data infrastructure.     | Sentinel-2 feature libraries (e.g., AGRS), land-use/land-cover mapping, geospatial data cubes, and viewers.              |
+| Computational Science, Modeling & Simulation             | Numerical modeling, PDEs, multi-physics, agent-based models, and scientific computing workflows.      | Groundwater models, crop–soil–atmosphere simulators, process-based crop models, digital twin frameworks.               |
+| Quantum Computing & High-Performance Computing           | Quantum algorithms, quantum simulation, HPC pipelines, and large-scale numerical workflows.           | QAOA benchmarks for NPK optimization, quantum ML demos, HPC workflow managers, cluster orchestration tools.            |
+| Robotics, IoT & Cyber-Physical Systems                   | Robots, drones, sensor networks, embedded systems, and edge computing.                                | Field sensor gateways, drone mission planners, greenhouse automation controllers, IoT data pipelines.                  |
+| Software Infrastructure, Platforms & Developer Tools     | Core software infrastructure, APIs, SDKs, CLIs, templates, and engineering productivity tools.        | API wrappers, packaging templates, logging and monitoring libs, scaffolding tools for UM6P services.                   |
+| Cybersecurity, Privacy & Trustworthy Systems             | Security, cryptography, privacy, safety, reliability, and responsible AI systems.                     | Access-control libraries, secure data-sharing platforms, privacy-preserving analytics, and model governance tools.      |
+| Economics, Finance & Development                         | Economic modeling, finance, development economics, trade, and impact evaluation.                      | Input–output models, agri-finance risk tools, subsidy simulators, socio-economic dashboards.                           |
+| Management, Strategy & Entrepreneurship                  | Management science, strategy, innovation, entrepreneurship, and operations research.                  | Startup pipeline tools, portfolio analysis dashboards, optimization tools for logistics and operations.                |
+| Policy, Governance & Regulation                          | Public policy, governance, regulation, institutional design, and foresight.                           | AI policy simulators, regulatory sandboxes, impact assessment dashboards, governance decision-support tools.           |
+| Education, Pedagogy & Digital Learning                   | Teaching, MOOCs, learning analytics, educational content, and assessment tools.                       | Course notebooks, interactive teaching demos, LMS integrations, learning analytics dashboards for UM6P programs.       |
+| Health, Bioinformatics & Life Sciences                   | Human, animal, and plant health, omics, bioinformatics, and biotechnology.                             | Multi-omics analysis pipelines, microbiome tools, sequence analysis libraries, bioprocess optimization tools.          |
+| Social Sciences, Humanities & Culture                    | Sociology, anthropology, history, linguistics, culture, and behavioral studies.                       | Survey analysis toolkits, text corpora explorers, cultural heritage mapping, and discourse analysis pipelines.             |
+| Open Data, Knowledge Management & Reproducibility        | Data portals, catalogs, documentation, knowledge graphs, and reproducible research frameworks.        | UM6P open data portal tools, metadata catalogs, reproducible pipeline templates, documentation generators.             |
+| General-purpose / Multi-domain                           | Cross-cutting or generic tools not tied to a single domain, or clearly serving many domains at once. | Visualization libraries, generic time-series utilities, multi-domain experiment managers, internal productivity tools. |
+
+---
+
+## Notes
+
+- Prefer **one primary domain** per project.  
+- If your software clearly spans multiple domains, choose the **closest fit** here and use the `tags` field for extra nuance (e.g., `remote-sensing; agriculture; quantum`).
+- To propose a new domain, please open an issue, and suggest the new domain value, a short description, and a couple of example projects.
