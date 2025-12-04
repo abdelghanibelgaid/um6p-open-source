@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this repository as follows."
+title: "Open Source at UM6P"
+doi: "10.5281/zenodo.17818739"
+date-released: "2025-12-04"
+type: "dataset"
+
+authors:
+  - family-names: "Belgaid"
+    given-names: "Abdelghani"
+    orcid: "https://orcid.org/0000-0002-1581-3958"
+  - family-names: "Mahmoud"
+    given-names: "Zakaria"
+    orcid: "https://orcid.org/0009-0004-6015-325X"
+
+preferred-citation:
+  type: "dataset"
+  authors:
+    - family-names: "Belgaid"
+      given-names: "Abdelghani"
+    - family-names: "Mahmoud"
+      given-names: "Zakaria"
+  title: "Open Source at UM6P"
+  doi: "10.5281/zenodo.17818739"
+  month: 12
+  year: 2025
+  url: "https://doi.org/10.5281/zenodo.17818739"
