@@ -1,10 +1,26 @@
 [
   {
+    "name": "Bioinformatics Platform",
+    "description": "The UM6P Bioinformatics Platform is a web-based hub hosting multiple genomics and bioinformatics tools, including plant genome and transposable element databases, large-scale SSR/LTR analysis servers, and alignment visualization utilities.",
+    "url": "https://bioinformatics.um6p.ma/platform",
+    "platform": "website",
+    "type": "service",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "tags": ["bioinformatics", "genomics", "plant-genomics", "database", "model", "web-platform", "transposable-elements", "tuberculosis"],
+    "owner": "Bioinformatics Laboratory",
+    "unit": "College of Computing",
+    "language": null,
+    "license": null,
+    "doi": null,
+    "status": "active",
+    "created_at": null
+  },
+  {
     "name": "MegaPlantTF",
     "description": "MegaPlantTF is a machine learning framework and web server for comprehensive identification and family-level classification of plant transcription factors across multiple plant species.",
     "url": "https://github.com/Bioinformatics-UM6P/MegaPlantTF",
     "platform": "github",
-    "type": "platform",
+    "type": "service",
     "domain": "Health, Bioinformatics & Life Sciences",
     "tags": ["plant-transcription-factors", "bioinformatics", "genomics", "protein-classification", "machine-learning", "webserver"],
     "owner": "Bioinformatics Laboratory",
