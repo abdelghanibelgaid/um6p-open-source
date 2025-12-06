@@ -32,6 +32,22 @@
     "created_at": "2025-03-02"
   },
   {
+    "name": "SAGDA",
+    "description": "SAGDA (Synthetic Agriculture Data in Africa) is a Python library for generating, augmenting, and validating synthetic agricultural datasets for African regions.",
+    "url": "https://github.com/SAGDAfrica/sagda",
+    "platform": "github",
+    "type": "library",
+    "domain": "Digital Agriculture, Precision Farming & AgTech",
+    "tags": ["machine-learning", "synthetic-data", "agriculture", "africa"],
+    "owner": "Abdelghani Belgaid",
+    "unit": "College of Computing",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.48550/arXiv.2506.13123",
+    "status": "active",
+    "created_at": "2024-10-06"
+  },
+  {
     "name": "AGRS",
     "description": "AGRS is a domain-focused Python library that turns Sentinel-2 imagery into agronomy-ready features for various agronomic applications.",
     "url": "https://github.com/abdelghanibelgaid/agrs",
