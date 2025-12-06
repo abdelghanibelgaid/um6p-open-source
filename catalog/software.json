@@ -1,5 +1,21 @@
 [
   {
+    "name": "GeneLM",
+    "description": "GeneLM is a genomic language model for bacterial coding sequence (CDS) prediction and Translation Initiation Site (TIS) refinement, implemented as a two-stage transformer-based pipeline.",
+    "url": "https://github.com/Bioinformatics-UM6P/GeneLM",
+    "platform": "github",
+    "type": "model",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "tags": ["genomics", "bacteria", "language-model", "transformer", "cds-prediction", "tis-prediction"],
+    "owner": "Bioinformatics Laboratory",
+    "unit": "College of Computing", 
+    "language": "Python",
+    "license": "CC BY 4.0", 
+    "doi": "10.1093/bib/bbaf311",
+    "status": "active",
+    "created_at": "2025-03-02"
+  },
+  {
     "name": "sympde",
     "description": "SymPDE is a symbolic calculus library for partial differential equations (PDEs) and variational forms.",
     "url": "https://github.com/pyccel/sympde",
