@@ -1,5 +1,21 @@
 [
   {
+    "name": "MegaPlantTF",
+    "description": "MegaPlantTF is a machine learning framework and web server for comprehensive identification and family-level classification of plant transcription factors across multiple plant species.",
+    "url": "https://github.com/Bioinformatics-UM6P/MegaPlantTF",
+    "platform": "github",
+    "type": "platform",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "tags": ["plant-transcription-factors", "bioinformatics", "genomics", "protein-classification", "machine-learning", "webserver"],
+    "owner": "Bioinformatics Laboratory",
+    "unit": "College of Computing",
+    "language": "Python",
+    "license": "MIT",
+    "doi": null,
+    "status": "active",
+    "created_at": "2024-12-15"
+  },
+  {
     "name": "GeneLM",
     "description": "GeneLM is a genomic language model for bacterial coding sequence (CDS) prediction and Translation Initiation Site (TIS) refinement, implemented as a two-stage transformer-based pipeline.",
     "url": "https://github.com/Bioinformatics-UM6P/GeneLM",
