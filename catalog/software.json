@@ -16,6 +16,22 @@
     "created_at": "2025-03-02"
   },
   {
+    "name": "AGRS",
+    "description": "AGRS is a domain-focused Python library that turns Sentinel-2 imagery into agronomy-ready features for various agronomic applications.",
+    "url": "https://github.com/abdelghanibelgaid/agrs",
+    "platform": "github",
+    "type": "library",
+    "domain": "Remote Sensing, GIS & Geospatial Analytics",
+    "tags": ["remote-sensing", "sentinel-2", "agriculture", "indices", "crop-modeling", "yield-prediction", "npk-optimization"],
+    "owner": "Abdelghani Belgaid",
+    "unit": "College of Computing",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.5281/zenodo.17699363",
+    "status": "active",
+    "created_at": "2025-11-23"
+  },
+  {
     "name": "sympde",
     "description": "SymPDE is a symbolic calculus library for partial differential equations (PDEs) and variational forms.",
     "url": "https://github.com/pyccel/sympde",
