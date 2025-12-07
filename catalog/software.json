@@ -1,5 +1,21 @@
 [
   {
+    "name": "MANAPY",
+    "description": "MANAPY is a Python 3 library for finite volume methods on unstructured grids, providing an MPI-based framework for solving Poisson’s equation in computational physics applications.",
+    "url": "https://github.com/imadki/manapy",
+    "platform": "github",
+    "type": "library",
+    "domain": "Computational Science, Modeling & Simulation",
+    "tags": ["finite-volume", "unstructured-grid", "poisson-equation", "mpi", "hpc"],
+    "owner": "Imad Kissami",
+    "unit": "College of Computing",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.1063/5.0194750",
+    "status": "active",
+    "created_at": "2023-04-28"
+  },
+  {
     "name": "Bioinformatics Platform",
     "description": "The UM6P Bioinformatics Platform is a web-based hub hosting multiple genomics and bioinformatics tools, including plant genome and transposable element databases, large-scale SSR/LTR analysis servers, and alignment visualization utilities.",
     "url": "https://bioinformatics.um6p.ma/platform",
