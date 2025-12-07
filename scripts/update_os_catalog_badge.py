@@ -10,7 +10,7 @@ def main():
 
     badge = {
         "schemaVersion": 1,
-        "label": "UM6P OSS projects",
+        "label": "Open Source at UM6P",
         "message": str(count),
         "color": "#B02035",  # Marrakech / UM6P red
     }
