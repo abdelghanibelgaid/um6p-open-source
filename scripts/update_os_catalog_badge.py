@@ -12,7 +12,7 @@ def main():
         "schemaVersion": 1,
         "label": "Open Source at UM6P",
         "message": str(count),
-        "color": "#B02035",  # Marrakech / UM6P red
+        "color": "##D7492A",
     }
 
     BADGE_PATH.write_text(json.dumps(badge), encoding="utf-8")
