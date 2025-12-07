@@ -1,0 +1,28 @@
+name: Update OS catalog badge
+
+on:
+  push:
+    paths:
+      - catalog/software.json
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update software count badge
+        run: python scripts/update_os_catalog_badge.py
+
+      - name: Commit updated badge
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update OS catalog badge"
+          file_pattern: "catalog/software-badge.json"
