@@ -1,5 +1,21 @@
 [
   {
+    "name": "mumps4py",
+    "description": "Mumps4py is a Python interface to the MUMPS sparse linear solver, providing MPI-based parallel direct solvers for large sparse systems via a Cython wrapper.",
+    "url": "https://github.com/imadki/mumps4py",
+    "platform": "github",
+    "type": "library",
+    "domain": "Quantum Computing & High-Performance Computing",
+    "tags": ["mumps", "sparse-linear-solver", "mpi", "hpc", "cython"],
+    "owner": "Imad Kissami",
+    "unit": "College of Computing",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.13140/RG.2.2.26885.05606/2",
+    "status": "active",
+    "created_at": "2025-02-23"
+  },
+  {
     "name": "MANAPY",
     "description": "MANAPY is a Python 3 library for finite volume methods on unstructured grids, providing an MPI-based framework for solving Poisson’s equation in computational physics applications.",
     "url": "https://github.com/imadki/manapy",
