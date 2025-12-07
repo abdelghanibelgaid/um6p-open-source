@@ -1,16 +1,14 @@
 # Open Source at UM6P
-
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.17818739">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17818739.svg" alt="DOI">
   </a>
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/abdelghanibelgaid/um6p-open-source/main/catalog/software-badge.json" alt="Open Source at UM6P">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/abdelghanibelgaid/um6p-open-source/main/catalog/software-badge.json&cacheSeconds=300" alt="Open Source at UM6P">
   <a href="CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contributions-Welcome-ed6e47.svg" alt="Contributions Welcome">
   </a>
   <img src="https://img.shields.io/badge/Status-Active-success" alt="Status: Active">
 </p>
-
 
 A curated list of open-source software developed at Mohammed VI Polytechnic University (UM6P). It highlights libraries, datasets, models, tools, and platforms built by UM6P students, researchers, engineers, and partners.
 
