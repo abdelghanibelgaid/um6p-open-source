@@ -1,17 +1,21 @@
 import json
 from pathlib import Path
 
-software_path = Path("catalog/software.json")
-badge_path = Path("catalog/software-badge.json")
+SOFTWARE_PATH = Path("catalog/software.json")
+BADGE_PATH = Path("catalog/software-badge.json")
 
-data = json.loads(software_path.read_text(encoding="utf-8"))
-count = len(data)
+def main():
+    data = json.loads(SOFTWARE_PATH.read_text(encoding="utf-8"))
+    count = len(data)
 
-badge = {
-    "schemaVersion": 1,
-    "label": "Open Source at UM6P",
-    "message": str(count),
-    "color": "#D7492A",
-}
+    badge = {
+        "schemaVersion": 1,
+        "label": "UM6P OSS projects",
+        "message": str(count),
+        "color": "#B02035",  # Marrakech / UM6P red
+    }
 
-badge_path.write_text(json.dumps(badge), encoding="utf-8")
+    BADGE_PATH.write_text(json.dumps(badge), encoding="utf-8")
+
+if __name__ == "__main__":
+    main()
