@@ -1,5 +1,21 @@
 [
   {
+    "name": "PlantDeBERTa",
+    "description": "PlantDeBERTa is a DeBERTa-based language model adapted to plant science for high-precision named entity recognition in plant stress-response literature, enabling structured knowledge extraction and ontology-aligned information retrieval.",
+    "url": "https://huggingface.co/PHENOMA/PlantDeBERTa",
+    "platform": "huggingface",
+    "type": "model",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "tags": ["plant-science", "ner", "language-model", "deberta", "crop-stress", "nlp"],
+    "owner": null,
+    "unit": "College of Agriculture & Environmental Sciences",
+    "language": "Python",
+    "license": "MIT",
+    "doi": "10.48550/arXiv.2506.08897",
+    "status": "active",
+    "created_at": "2025-03-14"
+  },
+  {
     "name": "mumps4py",
     "description": "Mumps4py is a Python interface to the MUMPS sparse linear solver, providing MPI-based parallel direct solvers for large sparse systems via a Cython wrapper.",
     "url": "https://github.com/imadki/mumps4py",
