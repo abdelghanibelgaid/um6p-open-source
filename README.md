@@ -1,9 +1,13 @@
 # Open Source at UM6P
+
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.17818739">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17818739.svg" alt="DOI">
   </a>
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/abdelghanibelgaid/um6p-open-source/main/catalog/software-badge.json&cacheSeconds=300" alt="Open Source at UM6P">
+  <a href="https://discord.gg/gxWZRF5x8R">
+    <img src="https://img.shields.io/badge/Discord-Community-5865F2?logo=discord&logoColor=white" alt="Discord: Join the server">
+  </a>
   <a href="CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contributions-Welcome-ed6e47.svg" alt="Contributions Welcome">
   </a>
