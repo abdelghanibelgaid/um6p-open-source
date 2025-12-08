@@ -1,5 +1,21 @@
 [
   {
+    "name": "PltRNAdb",
+    "description": "PltRNAdb is a plant transfer RNA (tRNA) database providing predicted nuclear and organellar tRNA genes from 256 plant species, with tools to search, browse, visualize, BLAST, and download tRNA annotations and statistics.",
+    "url": "https://bioinformatics.um6p.ma/PltRNAdb/",
+    "platform": "website",
+    "type": "dataset",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "tags": ["tRNA", "plant-genomics", "database", "non-coding-RNA", "bioinformatics", "webserver"],
+    "owner": "Bioinformatics Laboratory",
+    "unit": "College of Computing",
+    "language": null,
+    "license": "CC BY 4.0",
+    "doi": "10.1371/journal.pone.0268904",
+    "status": "active",
+    "created_at": "2022-05-23"
+  },
+  {
     "name": "PlantDeBERTa",
     "description": "PlantDeBERTa is a DeBERTa-based language model adapted to plant science for high-precision named entity recognition in plant stress-response literature, enabling structured knowledge extraction and ontology-aligned information retrieval.",
     "url": "https://huggingface.co/PHENOMA/PlantDeBERTa",
