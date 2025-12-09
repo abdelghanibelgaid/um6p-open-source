@@ -35,7 +35,7 @@ Each project in `catalog/software.json` uses the same schema:
 - `tags` – Short list of extra keywords (e.g., `["genomics", "remote-sensing", "sentinel-2", "ml", "hpc"]`)  
 - `maintainers` – List of maintainers or contact persons (e.g., `["Mohamed Example", "Maryam Example"]`)  
 - `unit_primary` – List of higher-level UM6P units (e.g., `["College of Computing", "Africa Business School"]`)  
-- `unit_secondary` – List of more specific units (lab, center, program, platform, etc.), e.g., `["Bioinformatics Laboratory", "Vanguard Center"]`  
+- `unit_secondary` – List of more specific units (lab, center, program, platform, etc.), e.g., `["Bioinformatics Laboratory", "AgroBioSciences"]`  
 - `language` – Main implementation language (e.g., `Python`, `R`, `Rust`, `TypeScript`)  
 - `license` – SPDX identifier (e.g., `MIT`, `Apache-2.0`, `GPL-3.0-only`)  
 - `doi` – DOI if available (e.g., Zenodo, DataCite)  
