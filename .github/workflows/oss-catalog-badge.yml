@@ -1,4 +1,4 @@
-name: Update OS catalog badge
+name: Update OSS catalog badge
 
 on:
   push:
@@ -19,10 +19,10 @@ jobs:
           python-version: "3.x"
 
       - name: Update software count badge
-        run: python scripts/update_os_catalog_badge.py
+        run: python scripts/update_oss_catalog_badge.py
 
       - name: Commit updated badge
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update OS catalog badge"
+          commit_message: "chore: update OSS catalog badge"
           file_pattern: "catalog/software-badge.json"
