@@ -70,7 +70,7 @@ Learn more about how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
     "domain": "Computational Science, Modeling & Simulation",
     "tags": ["pde", "finite-elements", "symbolic-math", "hpc"],
     "owner": "Pyccel",
-    "unit": "Vanguard Center",
+    "unit": ["Vanguard Center"],
     "language": "Python",
     "license": "MIT",
     "doi": null,
@@ -87,8 +87,12 @@ For now, the easiest way to browse the catalog is directly in GitHub via [`catal
 In the future, this catalog may power a dedicated interface to visualize different tools and track UM6P open-source activity.
 
 
-
 ## License
 
 The catalog content in this repository is released under the **MIT License** (see [LICENSE](LICENSE)).
 Each linked project keeps its **own** license as defined in its respective repository.
+
+
+## Disclaimer
+
+This is an independent, unofficial community initiative and is not affiliated with, endorsed by, or officially connected to Mohammed VI Polytechnic University (UM6P) or any of its official units, programs, or subsidiaries.
