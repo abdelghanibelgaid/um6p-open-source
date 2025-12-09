@@ -33,8 +33,9 @@ Each project in `catalog/software.json` uses the same schema:
 - `type` – `library`, `tool`, `dataset`, `model`, `web-app`, `api`, `service`, `workflow`, `benchmark`, `documentation`  
 - `domain` – Main domain, using one value from [`domain.md`](domain.md)  
 - `tags` – Short list of extra keywords (e.g., `["genomics", "remote-sensing", "sentinel-2", "ml", "hpc"]`)  
-- `owner` – Main maintainer or contact person  
-- `unit` – UM6P unit (school, lab, center, program, etc.)  
+- `maintainers` – List of maintainers or contact persons (e.g., `["Mohamed Example", "Maryam Example"]`)  
+- `unit_primary` – List of higher-level UM6P units (e.g., `["College of Computing", "Africa Business School"]`)  
+- `unit_secondary` – List of more specific units (lab, center, program, platform, etc.), e.g., `["Bioinformatics Laboratory", "Vanguard Center"]`  
 - `language` – Main implementation language (e.g., `Python`, `R`, `Rust`, `TypeScript`)  
 - `license` – SPDX identifier (e.g., `MIT`, `Apache-2.0`, `GPL-3.0-only`)  
 - `doi` – DOI if available (e.g., Zenodo, DataCite)  
@@ -69,8 +70,9 @@ Learn more about how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
     "type": "library",
     "domain": "Computational Science, Modeling & Simulation",
     "tags": ["pde", "finite-elements", "symbolic-math", "hpc"],
-    "owner": "Pyccel",
-    "unit": ["Vanguard Center"],
+    "maintainers": ["Pyccel"],
+    "unit_primary": ["Vanguard Center"],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": null,
@@ -82,7 +84,7 @@ Learn more about how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Browsing the Catalog
 
-For now, the easiest way to browse the catalog is directly in GitHub via [`catalog/software.json`](catalog/software.json), or by downloading it and loading it into your own tools (Python, R, etc.) to filter by `domain`, `unit`, `status`, or `tags`.
+For now, the easiest way to browse the catalog is directly in GitHub via [`catalog/software.json`](catalog/software.json), or by downloading it and loading it into your own tools (Python, R, etc.) to filter by `domain`, `maintainers`, `unit_primary`, `unit_secondary`, `status`, or `tags`.
 
 In the future, this catalog may power a dedicated interface to visualize different tools and track UM6P open-source activity.
 
