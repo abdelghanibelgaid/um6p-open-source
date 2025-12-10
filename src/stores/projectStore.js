@@ -60,17 +60,6 @@ export const useProjectStore = defineStore('project', () => {
   const uniqueDomains = computed(() => [...new Set(projects.value.map(p => p.domain))].sort())
   const uniqueTypes = computed(() => [...new Set(projects.value.map(p => p.type))].sort())
   const uniquePlatforms = computed(() => [...new Set(projects.value.map(p => p.platform))].sort())
-  const uniqueUnits = computed(() => {
-    const units = new Set()
-    projects.value.forEach(p => {
-      if (Array.isArray(p.unit)) {
-        p.unit.forEach(u => units.add(u))
-      } else if (p.unit) {
-        units.add(p.unit)
-      }
-    })
-    return [...units].sort()
-  })
   const uniqueStatuses = computed(() => [...new Set(projects.value.map(p => p.status))].sort())
   const uniqueLanguages = computed(() => [...new Set(projects.value.map(p => p.language).filter(Boolean))].sort())
   const uniqueLicenses = computed(() => [...new Set(projects.value.map(p => p.license).filter(Boolean))].sort())
@@ -96,7 +85,6 @@ export const useProjectStore = defineStore('project', () => {
     uniqueDomains,
     uniqueTypes,
     uniquePlatforms,
-    uniqueUnits,
     uniqueStatuses,
     uniqueLanguages,
     uniqueLicenses,

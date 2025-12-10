@@ -33,7 +33,7 @@
               <span class="text-sm font-semibold">{{ projectStore.uniqueDomains.length }} Research Domains</span>
             </div>
             <div class="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 border border-white/20">
-              <span class="text-sm font-semibold">{{ projectStore.uniqueUnits.length }} Academic Units</span>
+              <span class="text-sm font-semibold">{{ projectStore.uniquePlatforms.length }} Platforms</span>
             </div>
           </div>
         </div>
@@ -135,16 +135,7 @@
                 </select>
               </div>
 
-              <!-- Unit Filter -->
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">Unit</label>
-                <select v-model="filters.unit" class="input-field">
-                  <option value="">All Units</option>
-                  <option v-for="unit in projectStore.uniqueUnits" :key="unit" :value="unit">
-                    {{ unit }}
-                  </option>
-                </select>
-              </div>
+
 
               <!-- Status Filter -->
               <div>
@@ -308,16 +299,13 @@ const filteredProjects = computed(() => {
   // Apply search
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase()
-    results = results.filter(p => 
+    filtered = filtered.filter(p => 
       (p.name && p.name.toLowerCase().includes(query)) ||
       (p.description && p.description.toLowerCase().includes(query)) ||
-      (p.owner && p.owner.toLowerCase().includes(query)) ||
       (p.domain && p.domain.toLowerCase().includes(query)) ||
       (p.type && p.type.toLowerCase().includes(query)) ||
       (p.platform && p.platform.toLowerCase().includes(query)) ||
       (p.language && p.language.toLowerCase().includes(query)) ||
-      (Array.isArray(p.unit) && p.unit.some(u => u && u.toLowerCase().includes(query))) ||
-      (typeof p.unit === 'string' && p.unit.toLowerCase().includes(query)) ||
       (Array.isArray(p.tags) && p.tags.some(t => t && t.toLowerCase().includes(query)))
     )
   }
@@ -331,11 +319,6 @@ const filteredProjects = computed(() => {
   }
   if (filters.value.platform) {
     results = results.filter(p => p.platform === filters.value.platform)
-  }
-  if (filters.value.unit) {
-    results = results.filter(p => 
-      Array.isArray(p.unit) ? p.unit.includes(filters.value.unit) : p.unit === filters.value.unit
-    )
   }
   if (filters.value.status) {
     results = results.filter(p => p.status === filters.value.status)
