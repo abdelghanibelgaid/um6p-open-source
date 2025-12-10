@@ -283,9 +283,9 @@
                 <div class="absolute inset-0 bg-white/10 rounded-xl backdrop-blur-sm transform group-hover:scale-105 transition-transform duration-300"></div>
                 <div class="relative p-6 text-center">
                   <div class="w-16 h-16 mx-auto mb-4 border-4 border-white rounded-lg flex items-center justify-center">
-                    <div class="text-4xl font-bold text-white">{{ projectStore.uniqueUnits.length }}</div>
+                    <div class="text-4xl font-bold text-white">{{ projectStore.uniquePlatforms.length }}</div>
                   </div>
-                  <div class="text-white font-bold text-lg mb-1">Units</div>
+                  <div class="text-white font-bold text-lg mb-1">Platforms</div>
                   <div class="text-white/80 text-sm">Innovation</div>
                 </div>
               </div>

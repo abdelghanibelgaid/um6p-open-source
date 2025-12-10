@@ -8,7 +8,7 @@
             <img 
               src="@/assets/images/logo.png" 
               alt="UM6P Logo" 
-              class="h-10 w-auto"
+              class="h-8 w-auto"
             />
             <div>
               <div class="text-lg font-bold text-white">OpenSource@UM6P</div>
@@ -36,7 +36,7 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/abdelghanibelgaid/um6p-open-source" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/UM6POpenSoftwareCommunity/open-source" target="_blank" rel="noopener noreferrer" 
                  class="text-sm hover:text-um6p-light-orange transition-colors duration-200 flex items-center space-x-2">
                 <span>GitHub Repository</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

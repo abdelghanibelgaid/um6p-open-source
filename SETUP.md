@@ -261,7 +261,7 @@ npm install -D tailwindcss postcss autoprefixer
 
 ## Contributing
 
-See the main repository's [CONTRIBUTING.md](https://github.com/abdelghanibelgaid/um6p-open-source/blob/main/CONTRIBUTING.md) for contribution guidelines.
+See the main repository's [CONTRIBUTING.md](https://github.com/UM6POpenSoftwareCommunity/open-source/blob/main/CONTRIBUTING.md) for contribution guidelines.
 
 ## License
 
@@ -269,7 +269,7 @@ MIT License - see [LICENSE](../um6p-open-source/LICENSE)
 
 ## Support
 
-- **GitHub Issues**: [Report issues](https://github.com/abdelghanibelgaid/um6p-open-source/issues)
+- **GitHub Issues**: [Report issues](https://github.com/UM6POpenSoftwareCommunity/open-source/issues)
 - **Discord**: [Join our community](https://discord.gg/gxWZRF5x8R)
 
 ---

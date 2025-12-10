@@ -17,7 +17,7 @@
     </div>
 
     <!-- Description -->
-    <p class="text-gray-600 text-sm mb-4 flex-grow line-clamp-3">
+    <p class="text-gray-600 text-sm mb-4 flex-grow">
       {{ project.description }}
     </p>
 

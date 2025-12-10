@@ -30,7 +30,7 @@ website/
 | `/catalog` | Catalog.vue | Browse all projects |
 | `/ranking` | Ranking.vue | Community rankings |
 | `/about` | About.vue | About the initiative |
-| `/add-yours` | AddYours.vue | Submit new project |
+| `/submit` | AddYours.vue | Submit new project |
 | `/contribute` | Contribute.vue | Contribution guide |
 
 ## Key Files
@@ -82,5 +82,5 @@ npm run build
 
 ## Support
 
-- GitHub: https://github.com/abdelghanibelgaid/um6p-open-source
+- GitHub: https://github.com/UM6POpenSoftwareCommunity/open-source
 - Discord: https://discord.gg/gxWZRF5x8R

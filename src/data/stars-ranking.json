@@ -1,0 +1,354 @@
+[
+  {
+    "name": "pyccel",
+    "url": "https://github.com/pyccel/pyccel",
+    "description": "Pyccel is an extension language that transpiles numerical Python code to fast low-level (Fortran/C) code for scientific high-performance computing.",
+    "domain": "Quantum Computing & High-Performance Computing",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 384,
+    "forks": 62,
+    "watchers": 384,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "transpiler",
+      "hpc",
+      "code-generation",
+      "fortran",
+      "c"
+    ],
+    "maintainers": [
+      "Pyccel"
+    ],
+    "unit_primary": [
+      "Vanguard Center"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:54.417Z"
+  },
+  {
+    "name": "psydac",
+    "url": "https://github.com/pyccel/psydac",
+    "description": "PSYDAC is a library for isogeometric analysis (IGA), providing high-performance parallel solvers for PDEs and integration with Pyccel.",
+    "domain": "Computational Science, Modeling & Simulation",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 60,
+    "forks": 21,
+    "watchers": 60,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "isogeometric-analysis",
+      "finite-elements",
+      "pde",
+      "hpc",
+      "mpi"
+    ],
+    "maintainers": [
+      "Pyccel"
+    ],
+    "unit_primary": [
+      "Vanguard Center"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:54.896Z"
+  },
+  {
+    "name": "PALM",
+    "url": "https://github.com/UBC-NLP/palm",
+    "description": "PALM is a culturally inclusive and linguistically diverse instruction-tuning and evaluation dataset for Arabic large language models, covering 22 Arab countries and multiple domains with expert-written and synthetic prompts and responses.",
+    "domain": "Artificial Intelligence, Machine Learning & Data Science",
+    "platform": "github",
+    "type": "dataset",
+    "status": "active",
+    "stars": 30,
+    "forks": 6,
+    "watchers": 30,
+    "language": "Python",
+    "license": "CC-BY-NC-ND-4.0",
+    "tags": [
+      "arabic-nlp",
+      "llm",
+      "instruction-tuning",
+      "benchmark",
+      "cultural-bias",
+      "evaluation"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:49.566Z"
+  },
+  {
+    "name": "sympde",
+    "url": "https://github.com/pyccel/sympde",
+    "description": "SymPDE is a symbolic calculus library for partial differential equations (PDEs) and variational forms.",
+    "domain": "Computational Science, Modeling & Simulation",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 24,
+    "forks": 4,
+    "watchers": 24,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "pde",
+      "finite-elements",
+      "symbolic-math",
+      "hpc"
+    ],
+    "maintainers": [
+      "Pyccel"
+    ],
+    "unit_primary": [
+      "Vanguard Center"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:53.943Z"
+  },
+  {
+    "name": "GeneLM",
+    "url": "https://github.com/Bioinformatics-UM6P/GeneLM",
+    "description": "GeneLM is a genomic language model for bacterial coding sequence (CDS) prediction and Translation Initiation Site (TIS) refinement, implemented as a two-stage transformer-based pipeline.",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "platform": "github",
+    "type": "model",
+    "status": "active",
+    "stars": 8,
+    "forks": 2,
+    "watchers": 8,
+    "language": "Jupyter Notebook",
+    "license": "CC BY 4.0",
+    "tags": [
+      "genomics",
+      "bacteria",
+      "language-model",
+      "transformer",
+      "cds-prediction",
+      "tis-prediction"
+    ],
+    "maintainers": [
+      "Généreux Akotenou"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
+    "lastUpdated": "2025-12-10T15:41:52.464Z"
+  },
+  {
+    "name": "ClimateFiller",
+    "url": "https://github.com/elhachimi-ch/climatefiller",
+    "description": "ClimateFiller is a Python framework for climate time-series quality control and gap-filling, using ERA5-Land reanalysis data and machine learning to detect missing values, outliers, and apply physics-based constraints.",
+    "domain": "Climate, Weather & Atmospheric Science",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 6,
+    "forks": 4,
+    "watchers": 6,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "climate-data",
+      "gap-filling",
+      "time-series",
+      "era5-land",
+      "quality-control",
+      "machine-learning"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "Center for Remote Sensing Applications",
+      "International Water Research Institute"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:50.027Z"
+  },
+  {
+    "name": "MANAPY",
+    "url": "https://github.com/imadki/manapy",
+    "description": "MANAPY is a Python 3 library for finite volume methods on unstructured grids, providing an MPI-based framework for solving Poisson’s equation in computational physics applications.",
+    "domain": "Computational Science, Modeling & Simulation",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 6,
+    "forks": 3,
+    "watchers": 6,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "finite-volume",
+      "unstructured-grid",
+      "poisson-equation",
+      "mpi",
+      "hpc"
+    ],
+    "maintainers": [
+      "Imad Kissami"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:51.471Z"
+  },
+  {
+    "name": "SAGDA",
+    "url": "https://github.com/SAGDAfrica/sagda",
+    "description": "SAGDA (Synthetic Agriculture Data in Africa) is a Python library for generating, augmenting, and validating synthetic agricultural datasets for African regions.",
+    "domain": "Digital Agriculture, Precision Farming & AgTech",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 6,
+    "forks": 2,
+    "watchers": 6,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "machine-learning",
+      "synthetic-data",
+      "agriculture",
+      "africa"
+    ],
+    "maintainers": [
+      "Abdelghani Belgaid"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:52.976Z"
+  },
+  {
+    "name": "AGRS",
+    "url": "https://github.com/abdelghanibelgaid/agrs",
+    "description": "AGRS is a domain-focused Python library that turns Sentinel-2 imagery into agronomy-ready features for various agronomic applications.",
+    "domain": "Remote Sensing, GIS & Geospatial Analytics",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 6,
+    "forks": 1,
+    "watchers": 6,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "remote-sensing",
+      "sentinel-2",
+      "agriculture",
+      "indices",
+      "crop-modeling",
+      "yield-prediction",
+      "npk-optimization"
+    ],
+    "maintainers": [
+      "Abdelghani Belgaid"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:53.440Z"
+  },
+  {
+    "name": "mumps4py",
+    "url": "https://github.com/imadki/mumps4py",
+    "description": "Mumps4py is a Python interface to the MUMPS sparse linear solver, providing MPI-based parallel direct solvers for large sparse systems via a Cython wrapper.",
+    "domain": "Quantum Computing & High-Performance Computing",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 5,
+    "forks": 0,
+    "watchers": 5,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "mumps",
+      "sparse-linear-solver",
+      "mpi",
+      "hpc",
+      "cython"
+    ],
+    "maintainers": [
+      "Imad Kissami"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:50.972Z"
+  },
+  {
+    "name": "Data Science Toolkit",
+    "url": "https://github.com/elhachimi-ch/dst",
+    "description": "Data Science Toolkit (DST) is a Python library that wraps common data science libraries to provide higher-level, human-readable abstractions for data handling, modeling, and visualization, improving productivity in research workflows.",
+    "domain": "Artificial Intelligence, Machine Learning & Data Science",
+    "platform": "github",
+    "type": "library",
+    "status": "active",
+    "stars": 4,
+    "forks": 1,
+    "watchers": 4,
+    "language": "Python",
+    "license": "MIT",
+    "tags": [
+      "data-science",
+      "python-library",
+      "machine-learning",
+      "productivity",
+      "wrapper",
+      "visualization"
+    ],
+    "maintainers": [
+      "Chakib Elhachimi"
+    ],
+    "unit_primary": [
+      "Center for Remote Sensing Applications"
+    ],
+    "unit_secondary": [],
+    "lastUpdated": "2025-12-10T15:41:50.497Z"
+  },
+  {
+    "name": "MegaPlantTF",
+    "url": "https://github.com/Bioinformatics-UM6P/MegaPlantTF",
+    "description": "MegaPlantTF is a machine learning framework and web server for comprehensive identification and family-level classification of plant transcription factors across multiple plant species.",
+    "domain": "Health, Bioinformatics & Life Sciences",
+    "platform": "github",
+    "type": "service",
+    "status": "active",
+    "stars": 1,
+    "forks": 1,
+    "watchers": 1,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "tags": [
+      "plant-transcription-factors",
+      "bioinformatics",
+      "genomics",
+      "protein-classification",
+      "machine-learning",
+      "webserver"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
+    "lastUpdated": "2025-12-10T15:41:51.977Z"
+  }
+]

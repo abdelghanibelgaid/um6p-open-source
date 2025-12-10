@@ -40,7 +40,7 @@ npm run build
 1. **Catalog** (`/catalog`) - Browse all projects with advanced search and filtering
 2. **Ranking** (`/ranking`) - Community upvotes and GitHub stars rankings
 3. **About** (`/about`) - Information about the initiative
-4. **Add Yours** (`/add-yours`) - Project submission form
+4. **Add Yours** (`/submit`) - Project submission form
 5. **Contribute** (`/contribute`) - Contribution guidelines
 
 ### 🧩 Components Created
@@ -337,7 +337,7 @@ The website is ready for community contributions. Contributors can:
 
 ## 📞 Support & Resources
 
-- **Main Repo**: https://github.com/abdelghanibelgaid/um6p-open-source
+- **Main Repo**: https://github.com/UM6POpenSoftwareCommunity/open-source
 - **UM6P Website**: https://www.um6p.ma
 - **Discord**: https://discord.gg/gxWZRF5x8R
 

@@ -4,17 +4,25 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/sync-data.js && node scripts/sync-stars-ranking.js",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "netlify:dev": "npx netlify dev",
+    "netlify:deploy": "npx netlify deploy --prod",
+    "netlify:status": "npx netlify status",
+    "test:functions": "node test-functions.js",
+    "sync": "node scripts/sync-data.js",
+    "sync:stars": "node scripts/sync-stars-ranking.js"
   },
   "dependencies": {
+    "pinia": "^2.1.7",
     "vue": "^3.4.15",
-    "vue-router": "^4.2.5",
-    "pinia": "^2.1.7"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
     "autoprefixer": "^10.4.17",
+    "netlify-cli": "^23.12.3",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.12"

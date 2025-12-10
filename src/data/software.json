@@ -1,20 +1,109 @@
 [
   {
+    "name": "EAHE-D",
+    "description": "EAHE-D is a Zenodo-hosted dataset of in-situ temperature measurements from an earth-to-air heat exchanger prototype deployed at Green Energy Park, enabling modeling and performance evaluation of EAHE systems and their integration into energy-efficient buildings.",
+    "url": "https://zenodo.org/records/12820831",
+    "platform": "zenodo",
+    "type": "dataset",
+    "domain": "Climate, Weather & Atmospheric Science",
+    "tags": [
+      "earth-to-air-heat-exchanger",
+      "thermal-comfort",
+      "energy-efficient-buildings",
+      "temperature-sensors",
+      "time-series",
+      "morocco"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "Green Tech Institute",
+      "Green Energy Park"
+    ],
+    "unit_secondary": [],
+    "language": null,
+    "license": "CC BY 4.0",
+    "doi": "10.5281/zenodo.12820831",
+    "status": "active",
+    "created_at": "2024-07-25"
+  },
+  {
+    "name": "PALM",
+    "description": "PALM is a culturally inclusive and linguistically diverse instruction-tuning and evaluation dataset for Arabic large language models, covering 22 Arab countries and multiple domains with expert-written and synthetic prompts and responses.",
+    "url": "https://github.com/UBC-NLP/palm",
+    "platform": "github",
+    "type": "dataset",
+    "domain": "Artificial Intelligence, Machine Learning & Data Science",
+    "tags": [
+      "arabic-nlp",
+      "llm",
+      "instruction-tuning",
+      "benchmark",
+      "cultural-bias",
+      "evaluation"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "language": "Python",
+    "license": "CC-BY-NC-ND-4.0",
+    "doi": "10.18653/v1/2025.acl-long.1579",
+    "status": "active",
+    "created_at": "2025-10-24"
+  },
+  {
     "name": "ClimateFiller",
     "description": "ClimateFiller is a Python framework for climate time-series quality control and gap-filling, using ERA5-Land reanalysis data and machine learning to detect missing values, outliers, and apply physics-based constraints.",
     "url": "https://github.com/elhachimi-ch/climatefiller",
     "platform": "github",
     "type": "library",
     "domain": "Climate, Weather & Atmospheric Science",
-    "tags": ["climate-data", "gap-filling", "time-series", "era5-land", "quality-control", "machine-learning"],
+    "tags": [
+      "climate-data",
+      "gap-filling",
+      "time-series",
+      "era5-land",
+      "quality-control",
+      "machine-learning"
+    ],
     "maintainers": [],
-    "unit_primary": ["Center for Remote Sensing Applications", "International Water Research Institute"],
-    "unit_secondary": [], 
+    "unit_primary": [
+      "Center for Remote Sensing Applications",
+      "International Water Research Institute"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.1016/j.simpa.2023.100575",
     "status": "active",
     "created_at": "2023-09-09"
+  },
+  {
+    "name": "Casablanca",
+    "description": "Casablanca is a multidialectal Arabic speech dataset and model suite with manually transcribed audio covering multiple Arabic dialects, gender-balanced speakers, and rich code-switching for automatic speech recognition research.",
+    "url": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
+    "platform": "huggingface",
+    "type": "dataset",
+    "domain": "Artificial Intelligence, Machine Learning & Data Science",
+    "tags": [
+      "arabic-speech",
+      "speech-recognition",
+      "automatic-speech-recognition",
+      "dialectal-arabic",
+      "multidialectal",
+      "code-switching"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
+    "language": null,
+    "license": "CC BY-NC-ND 4.0",
+    "doi": "10.48550/arXiv.2410.04527",
+    "status": "active",
+    "created_at": "2024-10-06"
   },
   {
     "name": "Atlas-Chat",
@@ -23,10 +112,19 @@
     "platform": "huggingface",
     "type": "model",
     "domain": "Artificial Intelligence, Machine Learning & Data Science",
-    "tags": ["darija", "moroccan-arabic", "llm", "language-model", "instruction-tuning", "low-resource-nlp"],
-    "maintainers": [], 
-    "unit_primary": ["School of Industrial Management"],
-    "unit_secondary": [], 
+    "tags": [
+      "darija",
+      "moroccan-arabic",
+      "llm",
+      "language-model",
+      "instruction-tuning",
+      "low-resource-nlp"
+    ],
+    "maintainers": [],
+    "unit_primary": [
+      "School of Industrial Management"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": null,
     "doi": "10.48550/arXiv.2409.17912",
@@ -40,10 +138,21 @@
     "platform": "github",
     "type": "library",
     "domain": "Artificial Intelligence, Machine Learning & Data Science",
-    "tags": ["data-science", "python-library", "machine-learning", "productivity", "wrapper", "visualization"],
-    "maintainers": ["Chakib Elhachimi"],
-    "unit_primary": ["Center for Remote Sensing Applications"],
-    "unit_secondary": [], 
+    "tags": [
+      "data-science",
+      "python-library",
+      "machine-learning",
+      "productivity",
+      "wrapper",
+      "visualization"
+    ],
+    "maintainers": [
+      "Chakib Elhachimi"
+    ],
+    "unit_primary": [
+      "Center for Remote Sensing Applications"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.1016/j.simpa.2022.100240",
@@ -57,10 +166,21 @@
     "platform": "website",
     "type": "dataset",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["plant-genomes", "ltr-retrotransposons", "assembly-quality", "lai", "database", "webserver"],
+    "tags": [
+      "plant-genomes",
+      "ltr-retrotransposons",
+      "assembly-quality",
+      "lai",
+      "database",
+      "webserver"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"], 
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.1093/aobpla/plad015",
@@ -74,10 +194,21 @@
     "platform": "website",
     "type": "tool",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["ltr-retrotransposons", "plant-genomics", "transposable-elements", "annotation", "webserver", "pipeline"],
+    "tags": [
+      "ltr-retrotransposons",
+      "plant-genomics",
+      "transposable-elements",
+      "annotation",
+      "webserver",
+      "pipeline"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.3389/fpls.2023.1237426",
@@ -91,10 +222,20 @@
     "platform": "website",
     "type": "dataset",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["ltr-retrotransposons", "plant-genomics", "database", "transposable-elements", "genome-structure"],
+    "tags": [
+      "ltr-retrotransposons",
+      "plant-genomics",
+      "database",
+      "transposable-elements",
+      "genome-structure"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.3389/fpls.2023.1134627",
@@ -108,10 +249,21 @@
     "platform": "website",
     "type": "dataset",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["tuberculosis", "mycobacterium-tuberculosis", "genomics", "drug-resistance", "africa", "dataset"],
+    "tags": [
+      "tuberculosis",
+      "mycobacterium-tuberculosis",
+      "genomics",
+      "drug-resistance",
+      "africa",
+      "dataset"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"], 
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.1038/s41597-023-02112-3",
@@ -125,16 +277,26 @@
     "platform": "website",
     "type": "dataset",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["cicer", "transposable-elements", "plant-genomics", "database", "legumes"],
+    "tags": [
+      "cicer",
+      "transposable-elements",
+      "plant-genomics",
+      "database",
+      "legumes"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],     
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.1371/journal.pone.0259540",
     "status": "active",
     "created_at": "2021-11-11"
-  } ,
+  },
   {
     "name": "MegaSSR",
     "description": "MegaSSR is a web server and standalone pipeline for large-scale identification, classification, and marker development of simple sequence repeats (SSRs), including primer design, in silico PCR validation, and visualization.",
@@ -142,10 +304,20 @@
     "platform": "website",
     "type": "tool",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["ssr-markers", "microsatellites", "plant-genomics", "marker-development", "webserver"],
+    "tags": [
+      "ssr-markers",
+      "microsatellites",
+      "plant-genomics",
+      "marker-development",
+      "webserver"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],     
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.3389/fpls.2023.1219055",
@@ -159,10 +331,20 @@
     "platform": "website",
     "type": "tool",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["multiple-sequence-alignment", "visualization", "r-package", "bioinformatics", "diversity-analysis"],
+    "tags": [
+      "multiple-sequence-alignment",
+      "visualization",
+      "r-package",
+      "bioinformatics",
+      "diversity-analysis"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],     
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": "R",
     "license": "CC BY-NC",
     "doi": "10.1371/journal.pone.0291204",
@@ -176,10 +358,20 @@
     "platform": "website",
     "type": "dataset",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["transposable-elements", "molecular-markers", "plant-breeding", "curated-dataset", "primers"],
+    "tags": [
+      "transposable-elements",
+      "molecular-markers",
+      "plant-breeding",
+      "curated-dataset",
+      "primers"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"], 
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.1007/978-1-0716-3389-2_4",
@@ -193,10 +385,21 @@
     "platform": "website",
     "type": "dataset",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["tRNA", "plant-genomics", "database", "non-coding-RNA", "bioinformatics", "webserver"],
+    "tags": [
+      "tRNA",
+      "plant-genomics",
+      "database",
+      "non-coding-RNA",
+      "bioinformatics",
+      "webserver"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],    
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": "CC BY-NC",
     "doi": "10.1371/journal.pone.0268904",
@@ -210,10 +413,23 @@
     "platform": "website",
     "type": "service",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["bioinformatics", "genomics", "plant-genomics", "database", "model", "web-platform", "transposable-elements", "tuberculosis"],
+    "tags": [
+      "bioinformatics",
+      "genomics",
+      "plant-genomics",
+      "database",
+      "model",
+      "web-platform",
+      "transposable-elements",
+      "tuberculosis"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"],    
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": null,
     "license": null,
     "doi": null,
@@ -227,9 +443,18 @@
     "platform": "huggingface",
     "type": "model",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["plant-science", "ner", "language-model", "deberta", "crop-stress", "nlp"],
+    "tags": [
+      "plant-science",
+      "ner",
+      "language-model",
+      "deberta",
+      "crop-stress",
+      "nlp"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Agriculture & Environmental Sciences"],
+    "unit_primary": [
+      "College of Agriculture & Environmental Sciences"
+    ],
     "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
@@ -244,10 +469,20 @@
     "platform": "website",
     "type": "documentation",
     "domain": "Quantum Computing & High-Performance Computing",
-    "tags": ["hpc", "supercomputer", "cluster", "toubkal", "documentation"],
+    "tags": [
+      "hpc",
+      "supercomputer",
+      "cluster",
+      "toubkal",
+      "documentation"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Toubkal SuperComputer"],     
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Toubkal SuperComputer"
+    ],
     "language": null,
     "license": null,
     "doi": null,
@@ -261,10 +496,20 @@
     "platform": "github",
     "type": "library",
     "domain": "Quantum Computing & High-Performance Computing",
-    "tags": ["mumps", "sparse-linear-solver", "mpi", "hpc", "cython"],
-    "maintainers": ["Imad Kissami"],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": [],     
+    "tags": [
+      "mumps",
+      "sparse-linear-solver",
+      "mpi",
+      "hpc",
+      "cython"
+    ],
+    "maintainers": [
+      "Imad Kissami"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.13140/RG.2.2.26885.05606/2",
@@ -278,10 +523,20 @@
     "platform": "github",
     "type": "library",
     "domain": "Computational Science, Modeling & Simulation",
-    "tags": ["finite-volume", "unstructured-grid", "poisson-equation", "mpi", "hpc"],
-    "maintainers": ["Imad Kissami"],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": [], 
+    "tags": [
+      "finite-volume",
+      "unstructured-grid",
+      "poisson-equation",
+      "mpi",
+      "hpc"
+    ],
+    "maintainers": [
+      "Imad Kissami"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.1063/5.0194750",
@@ -295,10 +550,21 @@
     "platform": "github",
     "type": "service",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["plant-transcription-factors", "bioinformatics", "genomics", "protein-classification", "machine-learning", "webserver"],
+    "tags": [
+      "plant-transcription-factors",
+      "bioinformatics",
+      "genomics",
+      "protein-classification",
+      "machine-learning",
+      "webserver"
+    ],
     "maintainers": [],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"], 
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": "Python",
     "license": "MIT",
     "doi": null,
@@ -312,12 +578,25 @@
     "platform": "github",
     "type": "model",
     "domain": "Health, Bioinformatics & Life Sciences",
-    "tags": ["genomics", "bacteria", "language-model", "transformer", "cds-prediction", "tis-prediction"],
-    "maintainers": ["Généreux Akotenou"],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": ["Bioinformatics Laboratory"], 
+    "tags": [
+      "genomics",
+      "bacteria",
+      "language-model",
+      "transformer",
+      "cds-prediction",
+      "tis-prediction"
+    ],
+    "maintainers": [
+      "Généreux Akotenou"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [
+      "Bioinformatics Laboratory"
+    ],
     "language": "Python",
-    "license": "CC BY 4.0", 
+    "license": "CC BY 4.0",
     "doi": "10.1093/bib/bbaf311",
     "status": "active",
     "created_at": "2025-03-02"
@@ -329,10 +608,19 @@
     "platform": "github",
     "type": "library",
     "domain": "Digital Agriculture, Precision Farming & AgTech",
-    "tags": ["machine-learning", "synthetic-data", "agriculture", "africa"],
-    "maintainers": ["Abdelghani Belgaid"],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": [],     
+    "tags": [
+      "machine-learning",
+      "synthetic-data",
+      "agriculture",
+      "africa"
+    ],
+    "maintainers": [
+      "Abdelghani Belgaid"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.48550/arXiv.2506.13123",
@@ -346,10 +634,22 @@
     "platform": "github",
     "type": "library",
     "domain": "Remote Sensing, GIS & Geospatial Analytics",
-    "tags": ["remote-sensing", "sentinel-2", "agriculture", "indices", "crop-modeling", "yield-prediction", "npk-optimization"],
-    "maintainers": ["Abdelghani Belgaid"],
-    "unit_primary": ["College of Computing"],
-    "unit_secondary": [],     
+    "tags": [
+      "remote-sensing",
+      "sentinel-2",
+      "agriculture",
+      "indices",
+      "crop-modeling",
+      "yield-prediction",
+      "npk-optimization"
+    ],
+    "maintainers": [
+      "Abdelghani Belgaid"
+    ],
+    "unit_primary": [
+      "College of Computing"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.5281/zenodo.17699363",
@@ -363,10 +663,19 @@
     "platform": "github",
     "type": "library",
     "domain": "Computational Science, Modeling & Simulation",
-    "tags": ["pde", "finite-elements", "symbolic-math", "hpc"],
-    "maintainers": ["Pyccel"],
-    "unit_primary": ["Vanguard Center"],
-    "unit_secondary": [],     
+    "tags": [
+      "pde",
+      "finite-elements",
+      "symbolic-math",
+      "hpc"
+    ],
+    "maintainers": [
+      "Pyccel"
+    ],
+    "unit_primary": [
+      "Vanguard Center"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": null,
@@ -380,10 +689,20 @@
     "platform": "github",
     "type": "library",
     "domain": "Quantum Computing & High-Performance Computing",
-    "tags": ["transpiler", "hpc", "code-generation", "fortran", "c"],
-    "maintainers": ["Pyccel"],
-    "unit_primary": ["Vanguard Center"],
-    "unit_secondary": [], 
+    "tags": [
+      "transpiler",
+      "hpc",
+      "code-generation",
+      "fortran",
+      "c"
+    ],
+    "maintainers": [
+      "Pyccel"
+    ],
+    "unit_primary": [
+      "Vanguard Center"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.21105/joss.04991",
@@ -397,10 +716,20 @@
     "platform": "github",
     "type": "library",
     "domain": "Computational Science, Modeling & Simulation",
-    "tags": ["isogeometric-analysis", "finite-elements", "pde", "hpc", "mpi"],
-    "maintainers": ["Pyccel"],
-    "unit_primary": ["Vanguard Center"],
-    "unit_secondary": [],     
+    "tags": [
+      "isogeometric-analysis",
+      "finite-elements",
+      "pde",
+      "hpc",
+      "mpi"
+    ],
+    "maintainers": [
+      "Pyccel"
+    ],
+    "unit_primary": [
+      "Vanguard Center"
+    ],
+    "unit_secondary": [],
     "language": "Python",
     "license": "MIT",
     "doi": "10.23967/eccomas.2022.227",

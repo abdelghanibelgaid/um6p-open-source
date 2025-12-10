@@ -1,5 +1,14 @@
 <template>
   <div class="min-h-screen bg-gray-50">
+    <!-- Update Notification -->
+    <UpdateNotification
+      v-if="showUpdateNotification"
+      title="Update Available"
+      :message="updateMessage"
+      :show-actions="false"
+      @dismiss="handleDismiss"
+    />
+
     <!-- Hero Section -->
     <div class="relative bg-gradient-to-br from-um6p-orange via-um6p-light-orange to-orange-400 text-white py-20 overflow-hidden">
       <div class="absolute inset-0 opacity-10">
@@ -27,7 +36,7 @@
           
           <div class="flex flex-wrap gap-3 mt-8">
             <div class="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 border border-white/20">
-              <span class="text-sm font-semibold">{{ projectStore.projects.length }}+ Projects</span>
+              <span class="text-sm font-semibold">{{ projectStore.projects.length }} Projects</span>
             </div>
             <div class="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 border border-white/20">
               <span class="text-sm font-semibold">{{ projectStore.uniqueDomains.length }} Research Domains</span>
@@ -49,7 +58,7 @@
           <input
             v-model.trim="searchQuery"
             type="text"
-            placeholder="Search by project name, owner, unit, or keyword…"
+            placeholder="Search by project name, description, domain or keywords..."
             class="w-full px-4 py-3 pl-12 pr-12 text-lg h-14 border border-gray-300 rounded-lg focus:ring-2 focus:ring-um6p-orange focus:border-transparent outline-none transition-all duration-200 shadow-sm bg-white"
           />
           <svg class="absolute left-4 top-4 w-6 h-6 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -193,18 +202,79 @@
       </div>
 
       <!-- Results Count -->
-      <div class="mb-6 text-sm text-gray-600">
-        Showing <span class="font-semibold text-gray-900">{{ filteredProjects.length }}</span> 
-        of <span class="font-semibold text-gray-900">{{ projectStore.projects.length }}</span> projects
+      <div class="mb-6 flex items-center justify-between">
+        <div class="text-sm text-gray-600">
+          Showing <span class="font-semibold text-gray-900">{{ (currentPage - 1) * itemsPerPage + 1 }}</span> 
+          to <span class="font-semibold text-gray-900">{{ Math.min(currentPage * itemsPerPage, filteredProjects.length) }}</span> 
+          of <span class="font-semibold text-gray-900">{{ filteredProjects.length }}</span> projects
+        </div>
+        
+        <!-- Items per page selector -->
+        <div class="flex items-center space-x-2">
+          <span class="text-sm text-gray-600">Show:</span>
+          <select 
+            v-model="itemsPerPage" 
+            @change="resetPagination"
+            class="border border-gray-300 rounded-lg px-3 py-1 text-sm focus:ring-2 focus:ring-um6p-orange focus:border-transparent outline-none"
+          >
+            <option :value="12">12</option>
+            <option :value="18">18</option>
+            <option :value="24">24</option>
+            <option :value="48">48</option>
+            <option :value="filteredProjects.length">All</option>
+          </select>
+        </div>
       </div>
 
       <!-- Projects Grid -->
-      <div v-if="filteredProjects.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div v-if="filteredProjects.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <ProjectCard
-          v-for="project in filteredProjects"
+          v-for="project in paginatedProjects"
           :key="project.name"
           :project="project"
         />
+      </div>
+      
+      <!-- Pagination -->
+      <div v-if="totalPages > 1" class="flex items-center justify-center space-x-2 mt-8">
+        <!-- Previous Button -->
+        <button
+          @click="goToPage(currentPage - 1)"
+          :disabled="currentPage === 1"
+          class="px-3 py-2 border border-gray-300 rounded-lg text-sm font-medium hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        
+        <!-- Page Numbers -->
+        <template v-for="page in visiblePages" :key="page">
+          <span v-if="page === '...'" class="px-3 py-2 text-gray-500">...</span>
+          <button
+            v-else
+            @click="goToPage(page)"
+            :class="[
+              'px-4 py-2 border rounded-lg text-sm font-medium transition-colors',
+              page === currentPage
+                ? 'bg-um6p-orange text-white border-um6p-orange'
+                : 'border-gray-300 hover:bg-gray-50'
+            ]"
+          >
+            {{ page }}
+          </button>
+        </template>
+        
+        <!-- Next Button -->
+        <button
+          @click="goToPage(currentPage + 1)"
+          :disabled="currentPage === totalPages"
+          class="px-3 py-2 border border-gray-300 rounded-lg text-sm font-medium hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
 
       <!-- Empty State -->
@@ -226,15 +296,25 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useProjectStore } from '@/stores/projectStore'
 import ProjectCard from '@/components/ProjectCard.vue'
+import UpdateNotification from '@/components/UpdateNotification.vue'
 
 const projectStore = useProjectStore()
 
 const searchQuery = ref('')
 const showFilters = ref(false)
 const sortBy = ref('newest')
+const showUpdateNotification = ref(false)
+const updateMessage = ref('')
+const currentPage = ref(1)
+const itemsPerPage = ref(12)
+
+// Handle dismiss - just hide notification
+const handleDismiss = () => {
+  showUpdateNotification.value = false
+}
 
 // Clear search
 const clearSearch = () => {
@@ -243,7 +323,6 @@ const clearSearch = () => {
 
 // Debug: Check if data is loaded
 onMounted(() => {
-  console.log('Total projects loaded:', projectStore.projects.length)
 })
 
 const filters = ref({
@@ -299,7 +378,7 @@ const filteredProjects = computed(() => {
   // Apply search
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase()
-    filtered = filtered.filter(p => 
+    results = results.filter(p => 
       (p.name && p.name.toLowerCase().includes(query)) ||
       (p.description && p.description.toLowerCase().includes(query)) ||
       (p.domain && p.domain.toLowerCase().includes(query)) ||
@@ -347,6 +426,60 @@ const filteredProjects = computed(() => {
 
   return results
 })
+
+// Pagination
+const totalPages = computed(() => Math.ceil(filteredProjects.value.length / itemsPerPage.value))
+
+const paginatedProjects = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value
+  const end = start + itemsPerPage.value
+  return filteredProjects.value.slice(start, end)
+})
+
+const goToPage = (page) => {
+  if (page >= 1 && page <= totalPages.value) {
+    currentPage.value = page
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
+
+const visiblePages = computed(() => {
+  const pages = []
+  const total = totalPages.value
+  const current = currentPage.value
+  
+  if (total <= 7) {
+    for (let i = 1; i <= total; i++) pages.push(i)
+  } else {
+    if (current <= 4) {
+      for (let i = 1; i <= 5; i++) pages.push(i)
+      pages.push('...')
+      pages.push(total)
+    } else if (current >= total - 3) {
+      pages.push(1)
+      pages.push('...')
+      for (let i = total - 4; i <= total; i++) pages.push(i)
+    } else {
+      pages.push(1)
+      pages.push('...')
+      for (let i = current - 1; i <= current + 1; i++) pages.push(i)
+      pages.push('...')
+      pages.push(total)
+    }
+  }
+  
+  return pages
+})
+
+// Reset to page 1 when filters change
+const resetPagination = () => {
+  currentPage.value = 1
+}
+
+// Watch for filter changes and reset pagination
+watch([searchQuery, filters], () => {
+  resetPagination()
+}, { deep: true })
 </script>
 
 <style scoped>

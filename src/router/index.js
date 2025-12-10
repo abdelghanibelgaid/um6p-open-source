@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainLayout from '@/layouts/MainLayout.vue'
-import Catalog from '@/views/Catalog.vue'
+import Home from '@/views/Home.vue'
 import Ranking from '@/views/Ranking.vue'
 import About from '@/views/About.vue'
 import AddYours from '@/views/AddYours.vue'
@@ -13,12 +13,8 @@ const routes = [
     children: [
       {
         path: '',
-        redirect: '/catalog'
-      },
-      {
-        path: '/catalog',
-        name: 'Catalog',
-        component: Catalog
+        name: 'Home',
+        component: Home
       },
       {
         path: '/ranking',
@@ -39,6 +35,10 @@ const routes = [
         path: '/contribute',
         name: 'Contribute',
         component: Contribute
+      },
+      {
+        path: '/:pathMatch(.*)*',
+        redirect: '/'
       }
     ]
   }

@@ -285,7 +285,7 @@
           You can also contribute directly by editing <code class="px-2 py-1 bg-blue-100 rounded text-sm">catalog/software.json</code> and opening a Pull Request.
         </p>
         <a
-          href="https://github.com/abdelghanibelgaid/um6p-open-source"
+          href="https://github.com/UM6POpenSoftwareCommunity/open-source"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center space-x-2 text-blue-700 hover:text-blue-800 font-medium"

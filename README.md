@@ -97,7 +97,7 @@ Guidelines for contributing to the catalog via the website or GitHub.
 
 ## 🔧 Data Management
 
-The project catalog is stored in `src/data/software.json`. This file is synced with the main [um6p-open-source](https://github.com/abdelghanibelgaid/um6p-open-source) repository.
+The project catalog is stored in `src/data/software.json`. This file is synced with the main [um6p-open-source](https://github.com/UM6POpenSoftwareCommunity/open-source) repository.
 
 ### Updating the Catalog
 
@@ -169,7 +169,7 @@ git push -f git@github.com:USERNAME/REPO.git main:gh-pages
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see the main repository's [CONTRIBUTING.md](https://github.com/abdelghanibelgaid/um6p-open-source/blob/main/CONTRIBUTING.md) for guidelines.
+Contributions are welcome! Please see the main repository's [CONTRIBUTING.md](https://github.com/UM6POpenSoftwareCommunity/open-source/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## 📄 License
 
@@ -177,7 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](../um6p-open-
 
 ## 🔗 Links
 
-- **Main Repository**: [um6p-open-source](https://github.com/abdelghanibelgaid/um6p-open-source)
+- **Main Repository**: [um6p-open-source](https://github.com/UM6POpenSoftwareCommunity/open-source)
 - **UM6P Official Site**: [um6p.ma](https://www.um6p.ma)
 - **Discord Community**: [Join Server](https://discord.gg/gxWZRF5x8R)
 

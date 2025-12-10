@@ -102,7 +102,7 @@
               <span class="text-gray-600">Metadata consistency</span>
             </li>
           </ul>
-          <router-link to="/add-yours" class="btn-primary">
+          <router-link to="/submit" class="btn-primary">
             Submit a Project
           </router-link>
         </section>
@@ -124,10 +124,10 @@
               <div>
                 <h4 class="font-semibold mb-1">Visit the repository</h4>
                 <p class="text-gray-400 text-sm">
-                  <a href="https://github.com/abdelghanibelgaid/um6p-open-source" 
+                  <a href="https://github.com/UM6POpenSoftwareCommunity/open-source" 
                      target="_blank" rel="noopener noreferrer"
                      class="text-primary-400 hover:text-primary-300 underline">
-                    github.com/abdelghanibelgaid/um6p-open-source
+                    github.com/UM6POpenSoftwareCommunity/open-source
                   </a>
                 </p>
               </div>
@@ -218,7 +218,7 @@
             </li>
           </ol>
           <a
-            href="https://github.com/abdelghanibelgaid/um6p-open-source/issues/new"
+            href="https://github.com/UM6POpenSoftwareCommunity/open-source/issues/new"
             target="_blank"
             rel="noopener noreferrer"
             class="btn-primary inline-flex items-center space-x-2"
