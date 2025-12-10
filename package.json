@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "A modern web application showcasing open-source projects from Mohammed VI Polytechnic University",
   "type": "module",
-  "keywords": ["um6p", "open-source", "vue", "catalog", "research"],
+  "keywords": [
+    "um6p",
+    "open-source",
+    "vue",
+    "catalog",
+    "research"
+  ],
   "author": "UM6P Open Source Community",
   "license": "MIT",
   "repository": {
@@ -33,6 +39,6 @@
     "netlify-cli": "^23.12.3",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.0.12"
+    "vite": "^7.2.7"
   }
 }
