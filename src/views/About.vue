@@ -262,7 +262,6 @@
                     <div class="text-4xl font-bold text-white">{{ projectStore.projects.length }}</div>
                   </div>
                   <div class="text-white font-bold text-lg mb-1">Projects</div>
-                  <div class="text-white/80 text-sm">Knowledge</div>
                 </div>
               </div>
               
@@ -274,7 +273,6 @@
                     <div class="text-4xl font-bold text-white">{{ projectStore.uniqueDomains.length }}</div>
                   </div>
                   <div class="text-white font-bold text-lg mb-1">Domains</div>
-                  <div class="text-white/80 text-sm">Research</div>
                 </div>
               </div>
               
@@ -286,7 +284,6 @@
                     <div class="text-4xl font-bold text-white">{{ projectStore.uniquePlatforms.length }}</div>
                   </div>
                   <div class="text-white font-bold text-lg mb-1">Platforms</div>
-                  <div class="text-white/80 text-sm">Innovation</div>
                 </div>
               </div>
               
@@ -298,7 +295,6 @@
                     <div class="text-4xl font-bold text-white">{{ activeProjects }}</div>
                   </div>
                   <div class="text-white font-bold text-lg mb-1">Active</div>
-                  <div class="text-white/80 text-sm">Entrepreneurship</div>
                 </div>
               </div>
             </div>

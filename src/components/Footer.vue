@@ -61,8 +61,13 @@
           <h3 class="text-white font-semibold text-sm uppercase tracking-wider">Navigate</h3>
           <ul class="space-y-2">
             <li>
-              <router-link to="/catalog" class="text-sm hover:text-um6p-light-orange transition-colors duration-200">
-                Browse Catalog
+              <router-link to="/" class="text-sm hover:text-um6p-light-orange transition-colors duration-200">
+                Home
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/about" class="text-sm hover:text-um6p-light-orange transition-colors duration-200">
+                About
               </router-link>
             </li>
             <li>
