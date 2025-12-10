@@ -1,5 +1,39 @@
 [
   {
+    "name": "EAHE-D",
+    "description": "EAHE-D is a Zenodo-hosted dataset of in-situ temperature measurements from an earth-to-air heat exchanger prototype deployed at Green Energy Park, enabling modeling and performance evaluation of EAHE systems and their integration into energy-efficient buildings.",
+    "url": "https://zenodo.org/records/12820831",
+    "platform": "zenodo",
+    "type": "dataset",
+    "domain": "Climate, Weather & Atmospheric Science",
+    "tags": ["earth-to-air-heat-exchanger", "thermal-comfort", "energy-efficient-buildings", "temperature-sensors", "time-series", "morocco"],
+    "maintainers": [],
+    "unit_primary": ["Green Tech Institute", "Green Energy Park"],
+    "unit_secondary": [],
+    "language": null,
+    "license": "CC BY 4.0",
+    "doi": "10.5281/zenodo.12820831",
+    "status": "active",
+    "created_at": "2024-07-25"
+  },
+  {
+      "name": "PALM",
+      "description": "PALM is a culturally inclusive and linguistically diverse instruction-tuning and evaluation dataset for Arabic large language models, covering 22 Arab countries and multiple domains with expert-written and synthetic prompts and responses.",
+      "url": "https://github.com/UBC-NLP/palm",
+      "platform": "github",
+      "type": "dataset",
+      "domain": "Artificial Intelligence, Machine Learning & Data Science",
+      "tags": ["arabic-nlp", "llm", "instruction-tuning", "benchmark", "cultural-bias", "evaluation"],
+      "maintainers": [],
+      "unit_primary": ["College of Computing"],
+      "unit_secondary": [],
+      "language": "Python",
+      "license": "CC-BY-NC-ND-4.0",
+      "doi": "10.18653/v1/2025.acl-long.1579",
+      "status": "active",
+      "created_at": "2025-10-24"
+  },
+  {
     "name": "ClimateFiller",
     "description": "ClimateFiller is a Python framework for climate time-series quality control and gap-filling, using ERA5-Land reanalysis data and machine learning to detect missing values, outliers, and apply physics-based constraints.",
     "url": "https://github.com/elhachimi-ch/climatefiller",
@@ -15,6 +49,23 @@
     "doi": "10.1016/j.simpa.2023.100575",
     "status": "active",
     "created_at": "2023-09-09"
+  },
+  {
+    "name": "Casablanca",
+    "description": "Casablanca is a multidialectal Arabic speech dataset and model suite with manually transcribed audio covering multiple Arabic dialects, gender-balanced speakers, and rich code-switching for automatic speech recognition research.",
+    "url": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
+    "platform": "huggingface",
+    "type": "dataset",
+    "domain": "Artificial Intelligence, Machine Learning & Data Science",
+    "tags": ["arabic-speech", "speech-recognition", "automatic-speech-recognition", "dialectal-arabic", "multidialectal", "code-switching"],
+    "maintainers": [],
+    "unit_primary": ["College of Computing"],
+    "unit_secondary": [],
+    "language": null,
+    "license": "CC BY-NC-ND 4.0",
+    "doi": "10.48550/arXiv.2410.04527",
+    "status": "active",
+    "created_at": "2024-10-06"
   },
   {
     "name": "Atlas-Chat",
