@@ -45,7 +45,7 @@
               </svg>
             </a>
             <a 
-              href="https://discord.gg/your-discord-invite" 
+              href="https://discord.gg/gxWZRF5x8R" 
               target="_blank"
               rel="noopener noreferrer"
               class="p-2 rounded-lg text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition-colors duration-200"
