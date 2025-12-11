@@ -1,21 +1,22 @@
-# Open Source at UM6P
+<h1 align="center">OpenSource@UM6P</h1>
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.17818739">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17818739.svg" alt="DOI">
   </a>
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/abdelghanibelgaid/um6p-open-source/main/catalog/software-badge.json&cacheSeconds=300" alt="Open Source at UM6P">
+  <a href="https://opensourceum6p.com/">
+    <img src="https://img.shields.io/badge/website-opensourceum6p.com-ed6e47" alt="Explore the catalog website">
+  </a>
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/abdelghanibelgaid/um6p-open-source/main/catalog/software-badge.json&cacheSeconds=300" alt="OpenSource@UM6P">
   <a href="https://discord.gg/gxWZRF5x8R">
     <img src="https://img.shields.io/badge/Discord-Community-5865F2?logo=discord&logoColor=white" alt="Discord: Join the server">
   </a>
   <a href="CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contributions-Welcome-ed6e47.svg" alt="Contributions Welcome">
   </a>
-  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status: Active">
 </p>
 
-A curated list of open-source software developed at Mohammed VI Polytechnic University (UM6P). It highlights libraries, datasets, models, tools, and platforms built by UM6P students, researchers, engineers, and partners.
-
+A curated list of open-source software developed at Mohammed VI Polytechnic University (UM6P). It highlights libraries, datasets, models, tools, and platforms built by UM6P students, researchers, engineers, and partners. The catalog is also available via a public website at [opensourceum6p.com](https://opensourceum6p.com/).
 
 ## What is this Repository?
 
@@ -84,10 +85,15 @@ Learn more about how to contribute in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Browsing the Catalog
 
-For now, the easiest way to browse the catalog is directly in GitHub via [`catalog/software.json`](catalog/software.json), or by downloading it and loading it into your own tools (Python, R, etc.) to filter by `domain`, `maintainers`, `unit_primary`, `unit_secondary`, `status`, or `tags`.
+You can browse the catalog in two ways:
 
-In the future, this catalog may power a dedicated interface to visualize different tools and track UM6P open-source activity.
+1. **Website (recommended):**  
+   Use the public interface at [opensourceum6p.com](https://opensourceum6p.com/) to search, filter, and explore projects.
 
+2. **Raw JSON / GitHub:**  
+   Browse the source catalog directly via [`catalog/software.json`](catalog/software.json), or download it and load it into your own tools (Python, R, etc.) to filter by `domain`, `maintainers`, `unit_primary`, `unit_secondary`, `status`, or `tags`.
+
+The website is generated from `catalog/software.json`, which remains the single source of truth for all entries.
 
 ## License
 
